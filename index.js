@@ -10,8 +10,6 @@ function rgb2hex(rgb){
   ("0" + parseInt(rgb[3],10).toString(16)).slice(-2) : '';
 }
 
-
-
 Jimp.read(imagePath, function (err, image) {
     if (err) {
       console.log(err);
